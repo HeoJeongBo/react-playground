@@ -1,0 +1,3 @@
+bun run lint --write
+bun run check --write
+bunx tsc --noEmit
