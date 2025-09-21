@@ -1,13 +1,13 @@
-import { render, screen } from '@testing-library/react'
-import { describe, it, expect } from 'vitest'
+import { render, screen } from "@testing-library/react";
+import { describe, expect, it } from "vitest";
 
 function App() {
-  return <div>Hello World</div>
+	return <div>Hello World</div>;
 }
 
-describe('App', () => {
-  it('renders hello world', () => {
-    render(<App />)
-    expect(screen.getByText('Hello World')).toBeDefined()
-  })
-})
+describe("App", () => {
+	it("renders hello world", () => {
+		render(<App />);
+		expect(screen.getByText("Hello World")).toBeDefined();
+	});
+});
