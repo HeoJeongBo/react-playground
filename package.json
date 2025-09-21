@@ -7,7 +7,7 @@
     "start": "vite --port 3000",
     "build": "vite build && tsc",
     "serve": "vite preview",
-    "test": "vitest run",
+    "test": "bunx vitest run",
     "format": "biome format",
     "lint": "biome lint",
     "check": "biome check",
@@ -26,16 +26,18 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.2.0",
     "@types/node": "^24.5.2",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
+    "happy-dom": "^18.0.1",
     "husky": "^9.1.7",
     "jsdom": "^26.0.0",
     "typescript": "^5.7.2",
     "vite": "^6.3.5",
-    "vitest": "^3.0.5",
+    "vitest": "^3.2.4",
     "web-vitals": "^4.2.4"
   }
 }
