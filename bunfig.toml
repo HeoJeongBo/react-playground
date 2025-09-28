@@ -1,0 +1,17 @@
+[install]
+# 패키지 설치 시 동작 설정
+cache = true
+production = false
+lockfile = true
+
+[test]
+preload = ["./vitest.setup.ts"]
+
+[build]
+# 빌드 관련 설정
+target = "esnext"
+format = "esm"
+
+[run]
+# bun run 명령어 기본 설정
+silent = false
